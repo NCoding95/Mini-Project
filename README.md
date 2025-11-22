@@ -287,7 +287,7 @@ SOFTWARE.
 For questions, collaborations, or feedback:
 
 - **Issues**: Open an issue on this repository
-- **Email**: [your-email@spac.edu.ph]
+- **Email**: [ncbulio95@spac.edu.ph]
 - **Institution**: South Philippine Adventist College, Davao, Philippines
 
 ---
