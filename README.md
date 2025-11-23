@@ -60,7 +60,7 @@ enrollment-forecasting/
 │   └── regional_volatility_classification.csv  # Results data
 │
 ├── 📁 docs/
-│   ├── presentation.pptx               # Conference presentation
+│   ├── KALIMUHAGAN_CARDAÑO_BULIO_2025.pptx               # Conference presentation
 │   └── methodology.md                  # Detailed methodology
 │
 ├── requirements.txt                    # Python dependencies
@@ -289,8 +289,8 @@ SOFTWARE.
 For questions, collaborations, or feedback:
 
 - **Issues**: Open an issue on this repository
-- **Email**: [ncbulio95@spac.edu.ph]
-- **Institution**: South Philippine Adventist College, Davao, Philippines
+- **Email**: [ncbulio95@gmail.com]
+- **Institution**: South Philippine Adventist College, Davao Del Sur, Philippines
 
 ---
 
