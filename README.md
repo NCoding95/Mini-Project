@@ -160,14 +160,16 @@ CV = (Standard Deviation / Mean) × 100
 
 ### Model Performance
 
-| Model | R² Score | MAE (students) | RMSE (students) |
-|-------|----------|----------------|-----------------|
-| Linear Regression | 1.0000 | 0.00 | 0.00 |
-| Random Forest | 0.9999 | 9.17 | 28.45 |
-| Decision Tree | 0.9987 | 156.32 | 412.18 |
-| SVR | 0.8523 | 42,891.67 | 98,234.56 |
+### Model performance (hold-out test)
+| Model                    | R² (Train) | R² (Test) | MAE (students) | RMSE (students) | MAPE (%) |
+|-------------------------:|:----------:|:---------:|---------------:|----------------:|---------:|
+| Random Forest            | 0.9937     | **0.9874**| **46,312.61**  | **78,753.36**   | 39.28    |
+| Decision Tree            | 0.9930     | 0.9867    | 46,444.54      | 80,905.23       | 28.38    |
+| Linear Regression        | 0.8456     | 0.8362    | 196,320.79     | 284,212.39      | 2038.43  |
+| Support Vector Regression| -0.3018    | -0.3254   | 486,184.01     | 808,461.41      | 2401.08  |
 
-> **Note**: The near-perfect R² for Linear Regression indicates strong linear enrollment trends. For operational deployment, Random Forest is recommended for better generalizability.
+**Best model:** **Random Forest** — R² = **0.9874** (98.74% variance explained).  
+**Practical error (Random Forest):** MAE ≈ **±46,313 students** (≈**8.9%** of the average enrollment = 520,536).
 
 ### Volatility Classification
 
