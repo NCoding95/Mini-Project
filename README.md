@@ -117,7 +117,9 @@ jupyter notebook
 1. Navigate to the src/ directory
 2. Open mini.ipynb
 3. Click Run All
-##⚠️ Do NOT attempt to run the notebook using python mini.ipynb.
+
+###
+⚠️Do NOT attempt to run the notebook using python mini.ipynb.
 Jupyter notebooks must be executed interactively.
 
 ### Expected Output
